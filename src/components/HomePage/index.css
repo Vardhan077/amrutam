@@ -1,0 +1,11 @@
+.homePage{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homeHeading{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

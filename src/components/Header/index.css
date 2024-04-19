@@ -1,0 +1,60 @@
+.headerContainer{
+   
+    background-color: #FFF7E2;
+    height: fit-content;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 10px;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+.d{
+    color: #3A643B;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+}
+
+.one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px;
+    margin-right: 200px;
+}
+.two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px;
+    margin-left: 25%;
+}
+
+.login{
+    border:#3A643B 1px solid;
+    color: #3A643B;
+}
+button{
+    height: 50px;
+    width: 100px;
+    margin-right: 30px;
+    border-radius: 7px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signUp{
+    border: transparent 0px solid;
+    background-color: #3A643B;
+    color: #fff;
+}
+
+.logo{
+    height: 50px;
+
+}
