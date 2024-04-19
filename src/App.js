@@ -6,7 +6,7 @@ import Desktop2 from '../src/components/Desktop2';
 
 const RouterDOM = () => {
 	return (
-		<Router>
+		<Router  basename={process.env.PUBLIC_URL}>
 			<Routes>
 				<Route exact path="/" element={<HomePage />}></Route>
 				<Route exact path="/desktop1" element={<Desktop1 />} />
